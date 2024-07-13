@@ -1,0 +1,317 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "2020-12-14"
+Rev "RotaryVoltageDivider"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 "Cory Grant"
+$EndDescr
+$Comp
+L Switch:SW_Rotary12 SW1
+U 1 1 5FD83597
+P 5000 3800
+F 0 "SW1" H 4900 4581 50  0000 C CNN
+F 1 "SW_Rotary12" H 4900 4490 50  0000 C CNN
+F 2 "Grayhill_Rotary_Switch:56P30-01-1-XXN" H 4800 4500 50  0001 C CNN
+F 3 "http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf" H 4800 4500 50  0001 C CNN
+	1    5000 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J1
+U 1 1 5FD84D4A
+P 8400 3000
+F 0 "J1" H 8480 3042 50  0000 L CNN
+F 1 "Conn_01x03" H 8480 2951 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 8400 3000 50  0001 C CNN
+F 3 "~" H 8400 3000 50  0001 C CNN
+	1    8400 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R1
+U 1 1 5FD86772
+P 6225 2100
+F 0 "R1" H 6293 2146 50  0000 L CNN
+F 1 "1K" H 6293 2055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6225 2100 50  0001 C CNN
+F 3 "~" H 6225 2100 50  0001 C CNN
+	1    6225 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R2
+U 1 1 5FD892CF
+P 6225 2300
+F 0 "R2" H 6293 2346 50  0000 L CNN
+F 1 "1K" H 6293 2255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6225 2300 50  0001 C CNN
+F 3 "~" H 6225 2300 50  0001 C CNN
+	1    6225 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R3
+U 1 1 5FD89637
+P 6225 2500
+F 0 "R3" H 6293 2546 50  0000 L CNN
+F 1 "1K" H 6293 2455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6225 2500 50  0001 C CNN
+F 3 "~" H 6225 2500 50  0001 C CNN
+	1    6225 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R4
+U 1 1 5FD8991D
+P 6225 2700
+F 0 "R4" H 6293 2746 50  0000 L CNN
+F 1 "1K" H 6293 2655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6225 2700 50  0001 C CNN
+F 3 "~" H 6225 2700 50  0001 C CNN
+	1    6225 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R5
+U 1 1 5FD8A210
+P 6225 2900
+F 0 "R5" H 6293 2946 50  0000 L CNN
+F 1 "1K" H 6293 2855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6225 2900 50  0001 C CNN
+F 3 "~" H 6225 2900 50  0001 C CNN
+	1    6225 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R6
+U 1 1 5FD8A54B
+P 6225 3100
+F 0 "R6" H 6293 3146 50  0000 L CNN
+F 1 "1K" H 6293 3055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6225 3100 50  0001 C CNN
+F 3 "~" H 6225 3100 50  0001 C CNN
+	1    6225 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R7
+U 1 1 5FD8A869
+P 6225 3300
+F 0 "R7" H 6293 3346 50  0000 L CNN
+F 1 "1K" H 6293 3255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6225 3300 50  0001 C CNN
+F 3 "~" H 6225 3300 50  0001 C CNN
+	1    6225 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R8
+U 1 1 5FD8AA75
+P 6225 3500
+F 0 "R8" H 6293 3546 50  0000 L CNN
+F 1 "1K" H 6293 3455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6225 3500 50  0001 C CNN
+F 3 "~" H 6225 3500 50  0001 C CNN
+	1    6225 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R9
+U 1 1 5FD8ADD2
+P 6225 3700
+F 0 "R9" H 6293 3746 50  0000 L CNN
+F 1 "1K" H 6293 3655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6225 3700 50  0001 C CNN
+F 3 "~" H 6225 3700 50  0001 C CNN
+	1    6225 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R10
+U 1 1 5FD8B15C
+P 6225 3900
+F 0 "R10" H 6293 3946 50  0000 L CNN
+F 1 "1K" H 6293 3855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6225 3900 50  0001 C CNN
+F 3 "~" H 6225 3900 50  0001 C CNN
+	1    6225 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R11
+U 1 1 5FD8B539
+P 6225 4100
+F 0 "R11" H 6293 4146 50  0000 L CNN
+F 1 "1K" H 6293 4055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6225 4100 50  0001 C CNN
+F 3 "~" H 6225 4100 50  0001 C CNN
+	1    6225 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R12
+U 1 1 5FD8B81D
+P 6225 4300
+F 0 "R12" H 6293 4346 50  0000 L CNN
+F 1 "1K" H 6293 4255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6225 4300 50  0001 C CNN
+F 3 "~" H 6225 4300 50  0001 C CNN
+	1    6225 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0101
+U 1 1 5FD8C14A
+P 6225 1875
+F 0 "#PWR0101" H 6225 1725 50  0001 C CNN
+F 1 "VCC" H 6240 2048 50  0000 C CNN
+F 2 "" H 6225 1875 50  0001 C CNN
+F 3 "" H 6225 1875 50  0001 C CNN
+	1    6225 1875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6225 1875 6225 2000
+$Comp
+L power:GND #PWR0102
+U 1 1 5FD8D61C
+P 6225 4675
+F 0 "#PWR0102" H 6225 4425 50  0001 C CNN
+F 1 "GND" H 6230 4502 50  0000 C CNN
+F 2 "" H 6225 4675 50  0001 C CNN
+F 3 "" H 6225 4675 50  0001 C CNN
+	1    6225 4675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6225 2200 5400 2200
+Wire Wire Line
+	5400 2200 5400 3200
+Connection ~ 6225 2200
+Wire Wire Line
+	5400 3300 5475 3300
+Wire Wire Line
+	5475 3300 5475 2400
+Wire Wire Line
+	5475 2400 6225 2400
+Connection ~ 6225 2400
+Wire Wire Line
+	6225 2600 5550 2600
+Wire Wire Line
+	5550 2600 5550 3400
+Wire Wire Line
+	5550 3400 5400 3400
+Connection ~ 6225 2600
+Wire Wire Line
+	5400 3500 5625 3500
+Wire Wire Line
+	5625 3500 5625 2800
+Wire Wire Line
+	5625 2800 6225 2800
+Connection ~ 6225 2800
+Wire Wire Line
+	6225 3000 5700 3000
+Wire Wire Line
+	5700 3000 5700 3600
+Wire Wire Line
+	5700 3600 5400 3600
+Connection ~ 6225 3000
+Wire Wire Line
+	5400 3700 5775 3700
+Wire Wire Line
+	5775 3700 5775 3200
+Wire Wire Line
+	5775 3200 6225 3200
+Connection ~ 6225 3200
+Wire Wire Line
+	5400 3900 5850 3900
+Wire Wire Line
+	5850 3900 5850 3400
+Wire Wire Line
+	5850 3400 6225 3400
+Connection ~ 6225 3400
+Wire Wire Line
+	6225 3600 5925 3600
+Wire Wire Line
+	5925 3600 5925 4000
+Wire Wire Line
+	5925 4000 5400 4000
+Connection ~ 6225 3600
+Wire Wire Line
+	6225 3800 6000 3800
+Wire Wire Line
+	6000 3800 6000 4100
+Wire Wire Line
+	6000 4100 5400 4100
+Connection ~ 6225 3800
+Wire Wire Line
+	6225 4000 6075 4000
+Wire Wire Line
+	6075 4000 6075 4200
+Wire Wire Line
+	6075 4200 5400 4200
+Connection ~ 6225 4000
+Wire Wire Line
+	6225 4200 6150 4200
+Wire Wire Line
+	6150 4200 6150 4300
+Wire Wire Line
+	6150 4300 5400 4300
+Connection ~ 6225 4200
+Wire Wire Line
+	6225 4400 5400 4400
+$Comp
+L Device:R_Small_US R13
+U 1 1 5FD94643
+P 6225 4500
+F 0 "R13" H 6293 4546 50  0000 L CNN
+F 1 "1K" H 6293 4455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6225 4500 50  0001 C CNN
+F 3 "~" H 6225 4500 50  0001 C CNN
+	1    6225 4500
+	1    0    0    -1  
+$EndComp
+Connection ~ 6225 4400
+Wire Wire Line
+	6225 4600 6225 4675
+Text Label 4200 3800 2    50   ~ 0
+SIGNAL
+Wire Wire Line
+	4200 3800 4400 3800
+$Comp
+L power:GND #PWR0103
+U 1 1 5FD9CF56
+P 8200 3100
+F 0 "#PWR0103" H 8200 2850 50  0001 C CNN
+F 1 "GND" H 8205 2927 50  0000 C CNN
+F 2 "" H 8200 3100 50  0001 C CNN
+F 3 "" H 8200 3100 50  0001 C CNN
+	1    8200 3100
+	1    0    0    -1  
+$EndComp
+Text Label 8025 3000 2    50   ~ 0
+SIGNAL
+Wire Wire Line
+	8025 3000 8200 3000
+$Comp
+L power:VCC #PWR0104
+U 1 1 5FD9EB88
+P 8200 2900
+F 0 "#PWR0104" H 8200 2750 50  0001 C CNN
+F 1 "VCC" H 8215 3073 50  0000 C CNN
+F 2 "" H 8200 2900 50  0001 C CNN
+F 3 "" H 8200 2900 50  0001 C CNN
+	1    8200 2900
+	1    0    0    -1  
+$EndComp
+Text Notes 6750 4425 0    50   ~ 0
+If less than 12 positions, replace 1K resistors with 0R jumpers:\n4 Pos - R6 to R13\n5 Pos - R7 to R13\n6 Pos - R8 to R13\n7 Pos - R9 to R13\n8 Pos - R10 to R13\n9 Pos - R11 to R13\n10 Pos - R12 and R13\n11 Pos - R13
+$EndSCHEMATC
